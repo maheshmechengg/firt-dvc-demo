@@ -54,3 +54,11 @@ get dvc difference
 ```bash
 dvc metrics diff
 ```
+install test requirements
+```bash
+pip install pytest
+```
+install tox
+```bash
+pip install tox
+```
