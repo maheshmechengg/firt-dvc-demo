@@ -34,3 +34,6 @@ git commit -m "first commit"
 oneliner update for readme
 git add . && git commit -m "update readme.md"
 
+git remote add origin https://github.com/maheshmechengg/firt-dvc-demo
+git branch -M main
+git push origin main
