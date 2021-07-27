@@ -1,16 +1,19 @@
 create env
+
 '''bash
 conda create -n wineq python==3.7 -y
 '''
 
 activate env
-'''bach
+
+'''bash
 conda activate wineq
 '''
 
 created req
 
-install requ
+install requirements
+
 '''bash
 pip install -r requirements.txt
 '''
@@ -27,4 +30,7 @@ dvc add data_given/winequality-red.csv
 git add .
 
 git commit -m "first commit"
+
+oneliner update for readme
+git add . && git commit -m "update readme.md"
 
