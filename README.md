@@ -62,3 +62,26 @@ install tox
 ```bash
 pip install tox
 ```
+
+tox command
+```bash
+tox
+```
+
+for rebuilding
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+setup command, after making setup file
+```bash
+pip install -e .
+```
+build your own package as Pypy
+```bash
+python setup.py sdist bdist_wheel
+```
