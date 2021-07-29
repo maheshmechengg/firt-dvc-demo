@@ -66,9 +66,3 @@ def index():
 
 if __name__== "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
-    #dat = 10;10;10;10;10;10;10;10;10;10;10
-    #dat = 10,10,10,10,10,10,10,10,10,10,10
-
-    data = dict(request.form).values()
-    data = [list(map(float, data))]
-    print(predict(data[0]))
