@@ -25,7 +25,7 @@ def index():
                 #b = list(a)
                 #c = np.array(b)
                 #d = [list(map(float, c))]
-                #print(d)
+                #print(list(map(float, np.array(list(data_req.values())))))
                 response = prediction.form_response(data_req)
                 return render_template("index.html", response=response)
             elif request.json:
@@ -35,7 +35,8 @@ def index():
         except Exception as e:
             print(e)
             #error = {"error": "Some error occured"}
-            return render_template("404.html", error=e)
+            error = {"error": e}
+            return render_template("404.html", error=error)
     else:
         return render_template("index.html")
 
