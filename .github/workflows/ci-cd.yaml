@@ -29,7 +29,7 @@ jobs:
       - name: Lint with flake8
         run: |
           # stope the build if there are Python syntax error or undefined name
-          flake8 . --count --select=E9, F63, F82 --show-source --statistics
+          flake8 . --count --select=E9,F63,F82 --show-source --statistics
           #exit-zero treats all error as warning. The Github edito is 127 char
           flake8 . --count --exist-sero --max-colplexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
