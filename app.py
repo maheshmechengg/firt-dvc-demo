@@ -3,7 +3,7 @@ import os
 import joblib
 import numpy as np
 import yaml
-from prediction_service import prediction
+#from prediction_service import prediction
 
 params_path = "params.yaml"
 webapp_root = "webapp"
