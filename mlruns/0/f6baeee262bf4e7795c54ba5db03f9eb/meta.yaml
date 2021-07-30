@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/f6baeee262bf4e7795c54ba5db03f9eb/artifacts
+end_time: 1627634618431
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+name: ''
+run_id: f6baeee262bf4e7795c54ba5db03f9eb
+run_uuid: f6baeee262bf4e7795c54ba5db03f9eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627634618343
+status: 4
+tags: []
+user_id: T5201M2

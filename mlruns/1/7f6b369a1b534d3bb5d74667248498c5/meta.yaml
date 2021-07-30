@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/t5201m2/Downloads/DataScience/Training/wine_quality/mlruns/1/7f6b369a1b534d3bb5d74667248498c5/artifacts
+end_time: 1627634417282
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+name: ''
+run_id: 7f6b369a1b534d3bb5d74667248498c5
+run_uuid: 7f6b369a1b534d3bb5d74667248498c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627634417194
+status: 4
+tags: []
+user_id: T5201M2
