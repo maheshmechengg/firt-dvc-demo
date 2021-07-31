@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/9bce3289e6af40c29a94e53f2111907b/artifacts
+end_time: 1627721059128
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 9bce3289e6af40c29a94e53f2111907b
+run_uuid: 9bce3289e6af40c29a94e53f2111907b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627721059041
+status: 3
+tags: []
+user_id: maheshmec

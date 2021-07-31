@@ -1,0 +1,4 @@
+artifact_location: file:///home/maheshmec/DataSc/MLOps/firt-dvc-demo/mlruns/2
+experiment_id: '2'
+lifecycle_stage: active
+name: http://0.0.0.0:1234

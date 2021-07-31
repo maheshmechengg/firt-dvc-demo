@@ -19,7 +19,6 @@ import joblib
 import json
 import mlflow
 
-
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
     mae = mean_absolute_error(actual, pred)
@@ -52,10 +51,12 @@ def train_and_evaluate(config_path):
 
 ############# MLFlow ########################
     mlflow_config = config["mlflow_config"]
-    remote_server_uri = mlflow_config["remote_server_uri"]
 
-    mlflow.set_tracking_uri(remote_server_uri)
+    remote_server_uri = str(mlflow_config["remote_server_uri"])
+    #remote_server_uri = "http://0.0.0.0:5000"
+    mlflow.tracking.set_tracking_uri(remote_server_uri)
 
+    #mlflow.create_experiment(mlflow_config["experiment_name"])
     mlflow.set_experiment(mlflow_config["experiment_name"])
 
     with mlflow.start_run(run_name=mlflow_config["run_name"]) as mlops_runs:
