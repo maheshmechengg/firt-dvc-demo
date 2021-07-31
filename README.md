@@ -18,6 +18,12 @@ install requirements
 pip install -r requirements.txt
 ```
 
+
+```bash
+git clone -b main-mlflow https://github.com/maheshmechengg/firt-dvc-demo.git
+
+```
+
 download the data from:
 http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
 
